@@ -1,0 +1,78 @@
+https://www.youtube.com/watch?v=iZhV0bILFb0&t=5543s&ab_channel=CodingAddict
+install node nodejs.org
+install visual studio code
+instal Crome 
+install React Developer Tools
+------
+VSD extention:
+-Prettier-Codeformatter
+-ES7 React/Redux/GraphQL/React-Native snipets
+
+------
+Terminal(Git Bash, PowerShell) 18:20
+pwd	//Full Pathname to Current Working Directory
+ls	//List of Directories
+ls -a 	//Show hiden folder
+mkdir	//Create a Directory/Folder
+cd	//Change a Directory
+cd..	//Navigate to Parent/One Level Up
+clear	//Cler Console
+Arrow Key Up/Down	//Previous Comands
+
+------
+NPM Basic 25:00
+npm init				// creates package.json(manifest) file, list dependencies
+npm install <package name> --save	//install package lacally(default) and add to package.json
+npm install <package name> -g		//install package globaly(access anywhere) SUDO
+npm install <package name> --save-dev	//use it only in development
+
+Ctrl+` open Terminal in VSC
+
+------
+Create React App
+npx create-react-app tutorial	// create React app
+cd tutorial
+npm start	// Starts the development server (http://localhost:3000/)
+Ctrl+C // Stop server
+
+npm install //If node_modules folder is deleted or missed or clonned
+--
+Delete Files from "src" folder 
+App.css
+App.js
+App.test.js
+index.css
+logo.svg
+serviceWorker.js
+setupTests.js
+--
+Delete all content of index.js
+
+Capitol name for Component
+Component must return
+--
+JSX Rules 1:19:18
+-return single element
+-html symantic: div/section/ article/ React.Fragment <></>
+-use camelCase for html attributes
+-className instead of class
+-closse every element
+-formatting
+-return() use braket
+--
+Nested Components And React Tools 1:28:55
+Nest Many Component in one Component
+--
+CSS Basics 1:42:59
+/src/index.css
+import './index.css'
+--
+Props 2:09:30
+--
+Props Destructuring 2:25:41
+const {img, title, author} = props
+--
+Props - Children 2:29:44
+{children}
+2:59:47
+
